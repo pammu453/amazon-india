@@ -20,7 +20,7 @@ const app = express();
 connectDB();
 
 app.use(cors({
-    origin: "http://localhost:3000",
+    origin: "https://thriving-churros-1c3937.netlify.app",
     credentials: true,
 }));
 
